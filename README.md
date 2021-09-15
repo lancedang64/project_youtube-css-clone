@@ -1,5 +1,3 @@
-# Delet this line after changing title name, live preview URL and introduction
-
 # Project YouTube Video Page Clone (CSS only)
 
 # [Live preview](https://lancedang64.github.io/project_youtube-css-clone/)

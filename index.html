@@ -9,7 +9,102 @@
 		<title>Not YouTube</title>
 	</head>
 	<body>
-		<h1>Yo this is totally not Youtube</h1>
+		<header class="nav-bar">
+			<div class="nav-bar--left">
+				<button class="icon side-nav-icon">sideNav</button>
+				<button class="icon youtube-logo-icon">NOT YOUTUBE</button>
+			</div>
+			<div class="nav-bar--middle">
+				<input class="search-input" placeholder="Search" />
+				<button class="icon search-icon">glasss</button>
+				<button class="icon microphone-icon">microphone</button>
+			</div>
+			<div class="nav-bar--right">
+				<button class="icon create-icon">create</button>
+				<button class="icon apps-icon">apps</button>
+				<button class="icon notifications-icon">bell</button>
+				<button class="icon profile-icon">User</button>
+			</div>
+		</header>
+
+		<div class="app-body">
+			<div class="app-body--left">
+				<section class="container-video">
+					<div class="video-player-wrapper">
+						<iframe
+							width="560"
+							height="315"
+							src="https://www.youtube.com/embed/tYzMYcUty6s"
+							title="YouTube video player"
+							frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen
+						></iframe>
+					</div>
+					<section class="video-information">
+						<div class="video-information--left">
+							<h1 class="video-title main-video-title">
+								NEVER GIVE UP YOUR WAAAAAAAAAAAAY
+							</h1>
+							<span class="sub-title video-views">9,208,690 views</span>
+							<span> • </span>
+							<span class="video-subtitle video-date">Dec 14, 2013</span>
+						</div>
+						<div class="video-subtitle video-information--right">
+							<div>
+								<button class="like">
+									<span class="icon like-icon">thumbsup</span>
+									<span class="number-of-likes">797K</span>
+								</button>
+								<button>
+									<span class="icon dislike-icon">thumbsdown</span>
+									<span class="number-of-dislikes">4.1K</span>
+								</button>
+								<span class="like-dislike-meter"
+									>____________________________</span
+								>
+							</div>
+							<button class="share-button">
+								<span class="icon share-icon">sharearrow</span>
+								<span>SHARE</span>
+							</button>
+							<button class="save-to-playlist-button">
+								<span class="icon add-to-playlist-icon">listplus</span>
+								<span>SAVE</span>
+							</button>
+							<button class="more-actions">...icon</button>
+						</div>
+					</section>
+					<section class="video-description">
+						<div class="video-description--left">
+								<button class="icon profile-icon">Author</button>
+								<div>
+										<a class="username">Team Psycosmos</a>
+										<p class="video-subtitle number-of-subscribers"></p>
+										7.84K subscribers
+									</p>
+									<p class="video-description-text">
+										NEVA GIVE UP - https://bit.ly/2VrgAcK <br />
+										Song is Before my Body is Dry instrumental version from the
+										anime Kill La Kill
+									</p>
+									<button class="show-more">SHOW MORE</button>
+								</div>
+						</div>
+						<div class="video-description--right">
+							<button class="subscribe-button">SUBSCRIBE</button>
+						</div>
+					</section>
+				</section>
+
+				<section class="container-comment"></section>
+			</div>
+
+			<div class="app-body--right">
+				<section class="advertisement"></section>
+				<section class="container-suggested-video"></section>
+			</div>
+		</div>
 		<script src="index.js"></script>
 	</body>
 </html>
